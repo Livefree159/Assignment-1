@@ -1,0 +1,159 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    color: #333;
+}
+
+/* Header */
+.site-header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #0077b5;
+}
+
+.header-container {
+    max-width: 960px;
+    margin: auto;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+}
+
+.logo-icon {
+    background-color: #0077b5;
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+.main-nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #0077b5;
+    font-size: 14px;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 20px;
+
+    background-color: #ffffff;
+    display: flex;
+    gap: 40px;
+}
+
+/* Info Section */
+.info-section {
+    flex: 2;
+}
+
+.info-section h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #0077b5;
+}
+
+.benefits-list li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Signup Section */
+.signup-section {
+    flex: 1;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.signup-title {
+    background-color: #f3f6f8;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.signup-form label {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.signup-form input {
+    margin-top: 5px;
+    padding: 6px;
+}
+
+.continue-btn {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: #7fc241;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signin-link {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+/* Search Section */
+.search-section {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 15px;
+
+    background-color: #ffffff;
+    border-top: 1px solid #ccc;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search-form input {
+    padding: 5px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+}
+
+.directory-links {
+    font-size: 12px;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #ffffff;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
