@@ -1,0 +1,135 @@
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Overlay */
+.overlay {
+  min-height: 100vh;
+  background-color: #a9a9a9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal */
+.modal {
+  width: 430px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 32px;
+  text-align: center;
+  position: relative;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Logo */
+.logo img {
+  width: 32px;
+  margin-bottom: 20px;
+}
+
+/* Heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Social buttons */
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #ffffff;
+  border: 1px solid #dadce0;
+}
+
+.social img {
+  width: 18px;
+}
+
+/* Divider */
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+.divider span {
+  padding: 0 10px;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+/* Input */
+input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid #cfd9de;
+  font-size: 14px;
+}
+
+/* Primary */
+.primary {
+  background-color: #0f1419;
+  color: #ffffff;
+  border: none;
+}
+
+/* Secondary */
+.secondary {
+  background-color: #ffffff;
+  border: 1px solid #cfd9de;
+  font-weight: bold;
+}
+
+/* Signup */
+.signup {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #536471;
+}
+
+.signup a {
+  color: #1d9bf0;
+  text-decoration: none;
+}
